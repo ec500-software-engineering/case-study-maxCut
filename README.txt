@@ -32,10 +32,6 @@ Technologies and platfform used:
     used this library since many graphical applications can easily be paralelized. CUDA likely is used purely
     to optimize on graphics cards.
 
--Open GL
-    Open GL is a great graphics library. I believe some elements exist in other packages they use, but it looks 
-    like they use open gl for image rendering and windows (this is interesting because opengl uses opencv)
-
  There are some python packages listed in the instilation, but I believe that is
  to make OpenCV portable.
 
@@ -52,9 +48,7 @@ Most of the modules are dependent on opencv core, which controls all the opencv 
 as well as cuda opetimizations and conversions. It also contains some commonly used static algorithms.
 and inheritance from other open source projects.
 
-another important module is highgui. highgui is in charge of making neat windows to display output. This module
-is interdependent with opengl which is interesting because it seems like open gl uses a lot of 
-other opencv functions
+another important module is highgui. highgui is in charge of making neat windows to display output.
 
 I won't go into too much detail since there are a large number of modules, but each module attempts to be an independent library.
 They have modules for ml, 3d, photo, objdetection, python ect. all of which allow users to customize their opencv experience.
