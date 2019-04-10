@@ -1,4 +1,4 @@
-Annalysis of OpenCV
+Project: OpenCV
 
 Technologies and platfform used:
  -Languages used.
@@ -27,6 +27,10 @@ Technologies and platfform used:
     CUDA is a paralelization library. It is actually just considered freeware. It makes sense that opencv 
     used this library since many graphical applications can easily be paralelized. CUDA likely is used purely
     to optimize on graphics cards.
+
+-Open GL
+    Open GL is a great graphics library. I believe some elements exist in other packages they use, but it looks 
+    like they use open gl for image rendering and windows
 
  There are some python packages listed in the instilation, but I believe that is
  to make OpenCV portable.
