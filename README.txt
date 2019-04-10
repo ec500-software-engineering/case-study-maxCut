@@ -1,4 +1,5 @@
 Project: OpenCV
+Author: Max Mesirow
 
 Brief intro, Open CV is a image editing library that works for C++ and python.
 It is gteat for being able to quickly and efficiently process images and videos.
